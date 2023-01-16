@@ -66,3 +66,22 @@ thead {
     width: 20%;
 }
 /* FOOTER */
+h3 {
+    color: gray;
+}
+.box {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background-size: contain;
+    color: white;
+}
+.uno {
+    background-image: url(../img/monitor.jpg)
+}
+.due{
+    background-image: url(../img/graph.jpg);
+}
+h2 {
+    padding: 10px 0 0 10px;
+}
