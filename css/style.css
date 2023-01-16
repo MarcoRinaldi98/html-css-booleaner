@@ -1,10 +1,8 @@
 /* Style*/
-/* CSS reset */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
+    margin: 0%;
 }
+
 /* HEADER */
 header {
     height: 180px;
@@ -17,27 +15,54 @@ header {
     margin-left: 15px;
 }
 /* MAIN */
+#container {
+    margin: 0 10px;
+}
 h1 {
     font-size: 60px;
+    margin: 0;
 }
 .citazione {
-    color: lightgray;
+    color: rgb(140, 140, 140);
     font-size: 24px;
+    margin: 0;
 }
 .blue-text {
     color: rgb(32,169,229)
 }
 .data {
-    color: lightgray;
+    color: rgb(140, 140, 140);
     font-size: 18px;
+    margin: 0;
 }
 /* SECTION 1 */
 .tim {
     width: 49%;
     height: 500px;
-    background-size: contain;
 }
 .description {
     font-size: 15px;
+    margin: 0;
 }
 /* SECTION 2 */
+ul {
+    margin: -20px;
+}
+/* TABELLA */
+table {
+    margin: 50px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+thead {
+    background-color: rgb(32,169,229);
+    color: white;
+}
+.bg-blue {
+    background-color: rgb(127, 246, 255);
+}
+.length {
+    width: 20%;
+}
+/* FOOTER */
