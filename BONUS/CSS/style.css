@@ -12,11 +12,12 @@ header {
 .logo {
     height: 250px;
     width: 250px;
-    margin-left: 15px;
+    margin-left: 10%;
 }
 /* MAIN */
 #container {
-    margin: 0 10px;
+    width: 80%;
+    margin: auto;
 }
 h1 {
     font-size: 60px;
