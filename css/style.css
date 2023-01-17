@@ -1,53 +1,64 @@
-/* Style*/
-body {
-    margin: 0%;
+/* Style */
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-/* HEADER */
-header {
-    height: 180px;
-    background-color: rgb(67,130,205);
-    background-image: url("../img/pattern.png");
-}    
-.logo {
-    height: 250px;
-    width: 250px;
-    margin-left: 15px;
-}
-/* MAIN */
-#container {
+/* Layout pagina */
+#container{
     margin: 0 10px;
 }
-h1 {
-    font-size: 60px;
-    margin: 0;
+/* HEADER */
+header {
+    height: 100px;
+    background-color: rgb(67,130,205);
+    background-image: url("../img/pattern.png");
+    background-size: 20%;
+}    
+.logo {
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 10px;
 }
-.citazione {
+
+/* MAIN */
+main h1 {
+    font-size: 42px;
+}
+.author {
     color: rgb(140, 140, 140);
-    font-size: 24px;
-    margin: 0;
+    font-size: 20px;
 }
 .blue-text {
     color: rgb(32,169,229)
 }
-.data {
+.date {
     color: rgb(140, 140, 140);
-    font-size: 18px;
-    margin: 0;
+    font-size: 12px;
 }
-/* SECTION 1 */
+main {
+    margin: 20px 0;
+}
 .tim {
-    width: 49%;
-    height: 30em;
+    margin: 20px 0 0 0;
+}
+.tim img{
+    max-width: 100%;
 }
 .description {
-    font-size: 15px;
-    margin: 0;
+    font-size: 12px;
 }
-/* SECTION 2 */
-ul {
-    margin: -20px;
+.list {
+    margin: 20px 0;
 }
+li {
+    margin-left: 20px;
+}
+.paragrafo {
+    margin: 20px 0;
+}
+
 /* TABELLA */
 table {
     margin: 50px 0;
@@ -65,23 +76,27 @@ thead {
 .length {
     width: 20%;
 }
+
 /* FOOTER */
-h3 {
+footer h2 {
     color: gray;
+    font-size: 26px;
+    font-weight: bold;
 }
-.box {
-    height: 250px;
-    width: 250px;
-    margin: 10px;
-    background-size: contain;
+.image h3{
     color: white;
 }
-.uno {
-    background-image: url(../img/monitor.jpg)
+.image {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.due{
-    background-image: url(../img/graph.jpg);
+#image-monitor {
+    background-image: url('../img/monitor.jpg');
 }
-h2 {
-    padding: 10px 0 0 10px;
+#image-graph {
+    background-image: url('../img/graph.jpg');
 }
